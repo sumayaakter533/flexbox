@@ -8,3 +8,50 @@ h1 {
     font-size: 4rem;
     text-align: center;
 }
+
+.container {
+    border: 2px solid blue;
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* align-items: end; */
+    /* justify-content: end; */
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px dashed red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #222;
+    padding: 0 10px;
+}
+
+.login-form {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 40px;
+    width: 50%;
+    border: 1px solid crimson;
+    /* margin: 40px auto; */
+}
+
+#form-container {
+    display: flex;
+    align-items: center;
+    height: 75vh;
+    justify-content: center;
+    margin: 40px 0;
+    background: pink;
+}
